@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { View, Text, Button, FlatList, Modal, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import { AsyncStorage } from 'react-native';
 
+
 const App = () => {
   const [tasks, setTasks] = useState([]);
   const [modalVisible, setModalVisible] = useState(false);
